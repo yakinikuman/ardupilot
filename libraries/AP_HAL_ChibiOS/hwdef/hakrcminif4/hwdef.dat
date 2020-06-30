@@ -110,7 +110,7 @@ define HAL_PROBE_EXTERNAL_I2C_COMPASSES
 define HAL_I2C_INTERNAL_MASK 0
 define HAL_COMPASS_AUTO_ROT_DEFAULT 2
 # no sd card slot
-define LOGGING_ENABLED DISABLED
+define LOGGING_ENABLED 0
 
 define STORAGE_FLASH_PAGE 1
 define HAL_STORAGE_SIZE 15360
@@ -132,7 +132,7 @@ define BOARD_RSSI_ANA_PIN 0
 
 define HAL_GPIO_A_LED_PIN 57
 
-define OSD_ENABLED ENABLED
+define OSD_ENABLED 1
 define HAL_OSD_TYPE_DEFAULT 1
 
 #To complementary channels work we define this
